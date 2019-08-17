@@ -1,0 +1,31 @@
+Angular - Framework de JavaScript
+Linguaguem - TypeScript - Linguagem tipada, como estrutura similar a JS.
+
+Pré-requisitos: NodeJS e npm
+Npm - Gerenciador de pacotes
+
+Angular CLI
+    parecido com o WpCLI
+
+
+--------------------------------------------------------
+1. Abrir o terminal
+2. comando -> ng new {nome do projeto}
+3. Routing -> y
+4. Escolher o CSS {CSS padrão roots}
+5. Após a instalação {...Directory is already under version control. Skipping initialization of git.}
+6. rodar comando para inicializar applicação -> ng serve
+
+7. depois fazer todo rolê do git
+
+8. Componentes: áreas de responsabilidade da interface - tipo um HBox, VBox no javafx
+    Classe de componentes = contém toda lógica dos componentes e comportamento
+    roots = main -> app.component.ts
+
+P.S: Se acontecer o seguinte erro:
+"The generate command requires to be run in an Angular project, but a project definition could not be found."
+
+É pq o comando n foi executado na pasta do workshop
+
+9. *ngFor = Diretiva to angular para iterar sobre uma lista
+"para cada ..."
